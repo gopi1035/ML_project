@@ -32,7 +32,7 @@ git push origin mains
 To set up CICD pipeline
 
 Heroku Email address=  gopi_pandit@yahoo.com
-Heroku_API_Key =  a3f142ed-1939-42cd-8924-d75a2fd6210f
+Heroku_API_Key =  <>
 Heroku_App_Name = pandit-ml-app
 
 
