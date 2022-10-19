@@ -10,7 +10,7 @@ def get_requirement_list() -> List[str]:
     return This function is going to return a list which contain name of the libraries mentioned in requirement.txt
     """
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
-        return requirement_file.readlines() #.remove("-e .")
+        return requirement_file.readlines().remove("-e ")
 
 Project_Name= "Housing-Predictor"
 version = "0.0.3"
